@@ -30,7 +30,7 @@ public class MainActivity extends AppCompatActivity {
     private Uri imageURI;
     private Button myButton;
     private ImageView myImageView;
-    private boolean isWork = false;
+    public boolean isWork = false;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
